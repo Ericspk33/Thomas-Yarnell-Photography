@@ -1,0 +1,43 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon start ./bin/www"
+  },
+  "dependencies": {
+    "atob": "^2.1.2",
+    "btoa": "^1.2.1",
+    "buffer": "^6.0.3",
+    "chalk": "^4.1.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "email-validator": "^2.0.4",
+    "email-verifier": "^0.4.1",
+    "email-verifier-node": "0.0.2",
+    "express": "~4.16.1",
+    "express-session": "^1.17.1",
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^39.2.0",
+    "helmet": "^4.4.1",
+    "http-errors": "~1.6.3",
+    "ical-generator": "^1.15.3",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.8",
+    "mongoose-int32": "^0.4.1",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.1",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "request-ip": "^2.1.3"
+  }
+}

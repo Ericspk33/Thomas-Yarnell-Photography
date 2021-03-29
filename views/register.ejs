@@ -1,0 +1,12 @@
+<h2>register page</h2>
+<% if (typeof errors !== 'undefined') { %>
+    <% for (let i=0; i<errors.length; i++) {%>
+        <div class="error"><%= errors[i] %></div>
+    <% } %>
+<% } %>
+
+<% if (typeof success !== 'undefined') { %>
+    <% for (let i=0; i<success.length; i++) {%>
+        <div class="success"><%= success[i] %></div>
+    <% } %>
+<% } %>
